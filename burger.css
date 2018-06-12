@@ -1,0 +1,65 @@
+.site-nav {
+  position: absolute;
+  background: black;
+  top:0%;
+  right: 0%;
+  margin-top: 50px;
+  margin-right: 10px;
+  height: 0px;
+  overflow: hidden;
+}
+
+.site-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-nav li {
+  display: block;
+  padding: 20px 40px;
+  border-bottom: 1px solid #e6f0ff;
+}
+
+.site-nav--open {
+  height: auto;
+}
+
+site-nav a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  background: yellow;
+  color: black;
+}
+
+.menu-toggle {
+  background: black;
+  position: absolute;
+  top: 2%;
+  right: 8%;
+  padding: 20px;
+}
+
+.hamburger,
+.hamburger:before,
+.hamburger::after {
+  content: '';
+  display: block;
+  background: white;
+  height: 3px;
+  width: 30px;
+  border-radius: 3px;
+}
+
+.hamburger:before {
+  transform: translateY(-8px);
+}
+
+.hamburger::after {
+  transform: translateY(5px);
+}

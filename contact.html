@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Contact Form</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="contact.css" media="all"/>
+</head>
+
+<body>
+
+  <div class="logo">
+    <a href="fool.html">
+    <img src="stream-logo.png" alt="water drop logo" height="50";>
+  </a>
+  </div>
+
+
+  <form name="form" method="post" action="mail.php">
+    <p class="name">
+      <input type="text" name="name" id="name" placeholder="Name*"/>
+      <label for="name">Name</label>
+    </p>
+
+    <p class="email">
+      <input type="text" name="email" id="email" placeholder="Email address*"/>
+      <label for="email">Email</label>
+    </p>
+
+    <p class="phone">
+      <input type="text" name="phone" id="phone" placeholder="Phone number*"/>
+      <label for="name">Phone Number</label>
+    </p>
+
+    <p class="text">
+      <textarea name="text" placeholder="Please provide any additional information here"/></textarea>
+    </p>
+
+    <p>Please select all desired services:</p>
+
+    <input class="checkers" id="check_1" type="checkbox" name="checkbox_group_1[]" value="House">
+    <label for="check_1">House Washing</label>
+
+    <input class="checkers" id="check_2" type="checkbox" name="checkbox_group_1[]" value="Deck">
+    <label for="check_2">Deck Cleaning</label>
+      <br></br>
+    <input class="checkers" id="check_3" type="checkbox" name="checkbox_group_1[]" value="Roof">
+    <label for="check_3" >Roof Cleaning</label>
+
+    <input class="checkers" id="check_4" type="checkbox" name="checkbox_group_1[]" value="Concrete">
+    <label for="check_4" >Concrete Cleaning</label>
+      <br></br>
+    <input class="checkers" id="check_5" type="checkbox" name="checkbox_group_1[]" value="Rust">
+    <label for="check_5" >Rust Removal</label>
+
+    <input class="checkers" id="check_6" type="checkbox" name="checkbox_group_1[]" value="Gutter">
+    <label for="check_6" >Gutter Brightening</label>
+
+    <p class="submit">
+      <input type="submit" value="Send"/>
+    </p>
+
+
+
+
+
+</body>
+
+</html>

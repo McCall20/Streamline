@@ -1,0 +1,47 @@
+body {
+  padding-left: 10px;
+  color: #60b0f4;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #60b0f4;
+  width: 200px;
+  color: #60b0f4;
+  box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+  -moz-box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+  -webkit-box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+}
+
+textarea {
+  width: 250px;
+  height: 150px;
+  font-size
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus, {
+  border-color: 1px solid #c9c9c9;
+  box-shadow: rgba(0,0,0.2) 0px, 0px, 8px;
+  -moz-box-shadow: rgba(0,0,0.2) 0px, 0px, 8px;
+  -webkit-box-shadow: rgba(0,0,0.2) 0px, 0px, 8px;
+}
+
+.form label {
+  margin-left: 10px;
+  color: #60b0f4;
+}
+
+.submit input {
+  width: 100px;
+  height: 40px;
+  background-color: #60b0f4;
+  border: 1px solid #60b0f4;
+  border-radius: 4px;
+  color: white;
+}
+
+.checkers {
+  width: auto;
+  margin: 8px;
+}
