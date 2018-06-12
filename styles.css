@@ -59,7 +59,7 @@ border-radius: 6px;
 .logo {
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .slogan {
@@ -94,7 +94,6 @@ border-radius: 6px;
   justify-content: center;
   font-size: 30px;
   text-decoration: none;
-  margin-top: 10px;
   color: #0099ff;
 }
 
