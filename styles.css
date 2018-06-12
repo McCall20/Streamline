@@ -140,68 +140,90 @@ ul {
   float: right;
 }
 
+
+.first {
+  display: flex;
+  justify-content: space-between;
+  color: #0099ff;
+  width: auto;
+}
+
 .hw {
+    list-style-type: square;
+    margin-top: 80px;
+    margin-right:5px;
+    font-size: 23px;
+}
+
+
+.second {
   display: flex;
   flex-direction: row-reverse;
-  list-style-type: square;
-  font-size: 23px;
-  position: absolute;
-  right: 1%;
-  top: 97%;
+  justify-content: space-between;
   color: #0099ff;
+  width: auto;
 }
 
 .rm {
-  display: flex;
-  flex-direction: row-reverse;
   list-style-type: square;
+  margin-top: 80px;
+  margin-left: 30px;
   font-size: 23px;
-  position: absolute;
-  left: 8%;
-  top: 128%;
+}
+
+.third {
+  display: flex;
+  justify-content: space-between;
   color: #0099ff;
+  width: auto;
 }
 
 .rc {
+ list-style-type: square;
+ margin-top: 80px;
+ margin-right: 15px;
+ font-size: 23px;
+}
+
+.fourth {
   display: flex;
   flex-direction: row-reverse;
-  list-style-type: square;
-  font-size: 23px;
-  position: absolute;
-  right: 5%;
-  top: 157%;
   color: #0099ff;
+  width: auto;
 }
 
 .dc {
-  display: flex;
-  flex-direction: row-reverse;
   list-style-type: square;
   font-size: 23px;
-  position: absolute;
-  left: 8%;
-  top: 184%;
+  margin-top: 80px;
+  margin-right: 15px;
+}
+
+.fifth {
+  display: flex;
+  justify-content: space-between;
   color: #0099ff;
+  width: auto;
 }
 
 .gb {
-  display: flex;
-  flex-direction: row-reverse;
   list-style-type: square;
   font-size: 20px;
-  position: absolute;
-  right: 1%;
-  top: 211%;
+  margin-top: 83px;
+  margin-right: 5px;
+
+}
+
+.sixth {
+  display: flex;
+  flex-direction: row-reverse;
   color: #0099ff;
+  width: auto;
 }
 
 .cc {
-  display: flex;
-  flex-direction: row-reverse;
   list-style-type: square;
   font-size: 20px;
-  position: absolute;
-  left: 6%;
-  top: 242%;
-  color: #0099ff;
+  margin-top: 83px;
+  margin-right: 5px;
 }
